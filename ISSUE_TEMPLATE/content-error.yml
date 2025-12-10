@@ -1,0 +1,66 @@
+name: Course Content Error
+description: Report an error in course materials (typos, incorrect code, broken links)
+title: "[Content]: "
+labels: ["content", "bug"]
+body:
+  - type: dropdown
+    id: level
+    attributes:
+      label: Course Level
+      description: Which level is the content in?
+      options:
+        - Level 1 - Foundations
+        - Level 2 - Intermediate
+        - Level 3 - Advanced
+    validations:
+      required: true
+
+  - type: input
+    id: lesson
+    attributes:
+      label: Lesson/Module
+      description: Which lesson or module contains the error?
+      placeholder: "e.g., L1.2 Hello World Agent"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: error-type
+    attributes:
+      label: Error Type
+      options:
+        - Typo/Grammar
+        - Incorrect code example
+        - Broken link
+        - Missing information
+        - Outdated information
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Error Description
+      description: Describe the error you found
+      placeholder: "The code example on line X shows... but it should be..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggested-fix
+    attributes:
+      label: Suggested Fix
+      description: If you know the correct information, please share it
+      placeholder: "The correct syntax should be..."
+    validations:
+      required: false
+
+  - type: input
+    id: url
+    attributes:
+      label: Page URL
+      description: Link to the page with the error (if available)
+      placeholder: "https://signalwire.academy/..."
+    validations:
+      required: false

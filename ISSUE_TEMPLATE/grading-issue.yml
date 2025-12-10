@@ -1,0 +1,74 @@
+name: Grading/Autograder Issue
+description: Report a problem with the autograder or grading results
+title: "[Grading]: "
+labels: ["grading", "bug"]
+body:
+  - type: input
+    id: assignment
+    attributes:
+      label: Assignment
+      description: Which assignment has the grading issue?
+      placeholder: "e.g., L1.7 Order Functions"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: issue-type
+    attributes:
+      label: Issue Type
+      options:
+        - Test failing incorrectly (my code is correct)
+        - Grading workflow not running
+        - Grading workflow error/crash
+        - Score not updating
+        - Next assignment link broken
+        - Other
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Issue Description
+      description: Describe the grading problem
+    validations:
+      required: true
+
+  - type: input
+    id: repo
+    attributes:
+      label: Your Assignment Repo
+      description: Link to your assignment repository
+      placeholder: "https://github.com/signalwire-academy/l1-7-order-functions-yourusername"
+    validations:
+      required: true
+
+  - type: input
+    id: workflow-run
+    attributes:
+      label: Workflow Run URL
+      description: Link to the failed GitHub Actions run (found under Actions tab)
+      placeholder: "https://github.com/.../actions/runs/..."
+    validations:
+      required: false
+
+  - type: textarea
+    id: error-output
+    attributes:
+      label: Error Output
+      description: Copy any error messages from the grading output
+      render: shell
+    validations:
+      required: false
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Before Submitting
+      options:
+        - label: I have pushed my code to the main branch
+          required: true
+        - label: I have checked that my solution file is in the correct location
+          required: true
+        - label: I have reviewed the test requirements in the assignment README
+          required: true
