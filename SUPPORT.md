@@ -22,7 +22,7 @@ If you're enrolled in SignalWire Academy and need help:
 
 For issues with:
 - **GitHub Classroom**: Check [GitHub's documentation](https://docs.github.com/en/education)
-- **SignalWire Platform**: Visit [SignalWire Support](https://signalwire.com/support)
+- **SignalWire Platform**: Visit [SignalWire Support](https://support.signalwire.com)
 - **AI Agents SDK**: Check [SDK documentation](https://developer.signalwire.com/)
 
 ## Resources
