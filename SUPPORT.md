@@ -29,7 +29,7 @@ For issues with:
 
 - [SignalWire Documentation](https://developer.signalwire.com/)
 - [AI Agents SDK GitHub](https://github.com/signalwire/signalwire-agents)
-- [SWML Reference](https://developer.signalwire.com/sdks/reference/swml/overview)
+- [SWML Reference](https://developer.signalwire.com/swml/methods)
 
 ## Contact
 
