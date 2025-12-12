@@ -42,7 +42,7 @@ Visit [signalwire.academy](https://signalwire.academy) to enroll and begin your 
 ## Resources
 
 - [SignalWire Documentation](https://developer.signalwire.com/)
-- [AI Agents SDK Reference](https://github.com/signalwire/signalwire-ai-agents-sdk)
+- [AI Agents SDK Reference](https://developer.signalwire.com/sdks/agents-sdk)
 - [SignalWire Community](https://signalwire.community/)
 
 ## Contact
