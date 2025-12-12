@@ -23,12 +23,12 @@ If you're enrolled in SignalWire Academy and need help:
 For issues with:
 - **GitHub Classroom**: Check [GitHub's documentation](https://docs.github.com/en/education)
 - **SignalWire Platform**: Visit [SignalWire Support](https://support.signalwire.com)
-- **AI Agents SDK**: Check [SDK documentation](https://developer.signalwire.com/)
+- **AI Agents SDK**: Check [SDK documentation](https://developer.signalwire.com/sdks/agents-sdk)
 
 ## Resources
 
 - [SignalWire Documentation](https://developer.signalwire.com/)
-- [AI Agents SDK GitHub](https://github.com/signalwire/signalwire-ai-agents-sdk)
+- [AI Agents SDK GitHub](https://github.com/signalwire/signalwire-agents)
 - [SWML Reference](https://developer.signalwire.com/sdks/reference/swml/overview)
 
 ## Contact
